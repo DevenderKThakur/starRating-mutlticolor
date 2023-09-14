@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <title>Star rating System</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Rate your Favourite Picture </h1>
+    <div class="star-rating">
+        <img src="https://picsum.photos/400/300/?random" />
+        <ul class="stars">
+            <li class="star" data-rating ="1"><i class="fa fa-star"></i></li>
+            <li class="star" data-rating ="2"><i class="fa fa-star"></i></li>
+            <li class="star" data-rating ="3"><i class="fa fa-star"></i></li>
+            <li class="star" data-rating ="4"><i class="fa fa-star"></i></li>
+            <li class="star" data-rating ="5"><i class="fa fa-star"></i></li>
+        </ul>
+        <p class="output">Your Rating: <span id="current-rating">0</span></p>
+        <br>
+        <button class="next" onclick="nextPage()">NEXT</button>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
